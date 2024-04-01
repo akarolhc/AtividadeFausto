@@ -1,0 +1,9 @@
+.button-card{
+    margin-left: 10px !important;
+    background-color: black !important;
+    transition: all 1s;
+}
+
+.button-card:hover{
+    background-color: white !important;
+}

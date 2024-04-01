@@ -1,0 +1,19 @@
+/* .album{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 30px;
+} */
+
+.album{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 30px;
+}
+
+.album > * {
+    flex: 0 0 calc(33.33% - 20px); /* Define a largura dos cards com um espaço de 30px entre eles */
+}

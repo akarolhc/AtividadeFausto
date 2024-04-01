@@ -1,0 +1,12 @@
+
+.img-principal img{
+    max-width: 300px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+}
+
+.content{
+    display: flex;
+    gap: 30px;
+}
