@@ -1,12 +1,12 @@
 import CardAlbum from "../components/CardAlbum";
 import './Inicial.css'
-
 import IgAlbum from '../img/ig-album.jpeg'
-import KevinAlbum from '../img/kevin-album.jpeg'
-import IeGAlbum from '../img/ieg-album.jpeg'
-import MMAlbum from '../img/MMAlbum.png'
-import ELAlbum from '../img/el-album.jpg'
+import MatueAlbum from '../img/matue-album.jpg'
+import LuanAlbum from '../img/luancity.jpg'
+import DjongaAlbum from '../img/djonga-album.jpg'
+import JEMAlbum from '../img/album-jem.jpg'
 import { Container } from "react-bootstrap";
+
 
 export default function Inicial() {
   return (
@@ -21,34 +21,34 @@ export default function Inicial() {
           artista={true}
         />
         <CardAlbum
-          title="Fenix"
-          text="MC Kevin"
-          img={KevinAlbum}
+          title="Máquina do Tempo"
+          text="Matue"
+          img={MatueAlbum}
           linkSpotify="https://open.spotify.com/intl-pt/album/3NV12Ja67V8BLOVVO9feMs"
-          linkSobre="/mcKevin"
+          linkSobre="/matue"
           artista={true}
         />
         <CardAlbum
-          title="Sextou Bb: Uberlândia"
-          text="Ícaro & Gilmar"
-          img={IeGAlbum}
-          linkSpotify="https://open.spotify.com/intl-pt/album/0J3qeo9vgSPwQgKss5oLPI?autoplay=true"
-          linkSobre="/IcaroEGilmar"
+          title="Luan City 2.0"
+          text="Luan Santana"
+          img={LuanAlbum}
+          linkSpotify="https://open.spotify.com/intl-pt/album/4dQAevCwvaHURvvM1ddXwM"
+          linkSobre="/Luan"
         />
         <CardAlbum
-          title="Festa das Patroas"
-          text="Marília Mendonça"
-          img={MMAlbum}
+          title="Inocente"
+          text="Djonga"
+          img={DjongaAlbum}
           linkSpotify="https://open.spotify.com/intl-pt/album/4IzsHOBctS66OP3dHXTJsG?autoplay=true"
-          linkSobre="/MaríliaMendonça"
+          linkSobre="/Djonga"
           artista={true}
         />
         <CardAlbum
-          title="Cabaré"
-          text="Eduardo Costa e Leonardo"
-          img={ELAlbum}
+          title="10 Anos (Ao Vivo) - Deluxe"
+          text="Jorge e Mateus"
+          img={JEMAlbum}
           linkSpotify="https://open.spotify.com/intl-pt/album/2tDBFZ0M5cmmUyweIsOc8d?autoplay=true"
-          linkSobre="/EduardoELeonardo"
+          linkSobre="/JorgeEMateus"
         />
       </div>
     </Container>

@@ -1,12 +1,13 @@
 import Sobre from "./Sobre"
-import Ig from '../img/ig.jpg'
+import Ig from '../img/Ig.png'
 
 export default function McIG() {
     return (
         <Sobre 
-            title="IG" 
+            title="MC IG" 
             img={Ig} 
-            desc="MC IG, cujo nome verdadeiro é Igor Guilherme, é um cantor e compositor brasileiro de funk nascido em São Paulo em 12 de maio de 1997. Ele é conhecido por suas músicas de funk ostentação e por compartilhar sua rotina e estilo de vida nas redes sociais. MC IG cresceu na Vila Medeiros, zona norte de São Paulo, e se destaca por suas parcerias musicais com artistas como MC Pipokinha, DJ GBR, MC Ryan e Hariel. Suas letras abordam temas como dinheiro, ostentação e a vida na periferia de São Paulo, refletindo sua jornada de pobre milionário e sua ascensão na cena do funk. Além disso, ele é conhecido por sucessos como 'Lets’s Go 2', 'Vou de Lacoste', '3 Dias Virado' e '4M Vibes'."
+            desc="
+            MC IG é uma figura proeminente no cenário do funk brasileiro, destacando-se como um dos cinco artistas mais ouvidos do país no Spotify. Seu novo single Diz aí qual é o plano? antecede o lançamento de seu álbum Todo mundo odeia o IG, uma paródia da série Todo mundo odeia o Chris. Com quase doze minutos de duração, o single reúne diversos talentos da música urbana brasileira, enquanto o álbum promete sete faixas inéditas com colaborações de grandes nomes do funk. Esses lançamentos refletem o sucesso e a criatividade de MC IG, consolidando sua posição como uma figura influente no gênero."
         /> 
     );
 }
